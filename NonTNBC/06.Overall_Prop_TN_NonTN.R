@@ -65,7 +65,6 @@ df$Patient <- factor(df$Patient, levels = unique(c(dfs_order, dfs_order2,dfs_ord
 
 df$Type <- factor(df$Type,levels=major_order)
 
-# ggplot으로 그래프 그리기
 # df$Subtype <- factor(df$Subtype,levels = c("HR+HER2-",'HR+HER2+','HR-HER2+'))
 library(RColorBrewer)
 my_orange = brewer.pal(n = 9, "YlOrRd")[c(3,5,7)]
